@@ -1,4 +1,9 @@
 .DEFAULT_GOAL := cqc
 
-cqc:
+cqc: clean
 	go build -o cqc *.go
+
+.PHONY: clean
+clean:
+	rm -f cqc
+

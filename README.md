@@ -59,8 +59,6 @@ Usage of ./cqc:
         source username
   -split-size int
         split size (default 1000)
-  -table string
-        table
   -target-hosts string
         target hosts (default "localhost")
   -target-password string

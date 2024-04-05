@@ -26,7 +26,6 @@ var (
 	targetPassword   *string
 	logLevel         *string
 	keyspace         *string
-	table            *string
 	pageSize         *int
 	queryTemplate    *string
 	workers          *int
@@ -66,7 +65,6 @@ func parseArgs() {
 	targetPassword = flag.String("target-password", "", "target password")
 	logLevel = flag.String("log-level", "info", "log level options: debug, info, warn, error")
 	keyspace = flag.String("keyspace", "", "keyspace")
-	table = flag.String("table", "", "table")
 	pageSize = flag.Int("page-size", 1000, "page size")
 	queryTemplate = flag.String("query-template", "", "query template")
 	workers = flag.Int("workers", 4, "number of workers")
