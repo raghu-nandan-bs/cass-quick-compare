@@ -13,7 +13,7 @@ make
 ### command example
 
 ```
-./test_token_similarity       \
+./cqc       \
   --target-hosts=<hosts in target-cluster>       \
   --source-hosts=<hosts in source-cluster>       \
   --keyspace=<keyspace to connect to>       \
